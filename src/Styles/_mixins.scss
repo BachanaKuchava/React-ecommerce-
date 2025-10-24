@@ -1,0 +1,11 @@
+@mixin hover-effect {
+
+    &:hover {
+        cursor: pointer;
+        opacity: 90%;
+        transition: 0.3s;
+        transform: scale(1.03);
+    }
+
+
+}
