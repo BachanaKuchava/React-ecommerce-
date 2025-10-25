@@ -1,38 +1,7 @@
-@use '../../Styles/variables' as *;
-@import '../../Styles/_mixins.scss';
-
-
 .header {
     background: #D9D9D9;
     width: 100%;
     display: flex;
     align-items: center;
     flex-direction: column;
-}
-
-.upper {
-    max-width: 1440px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    padding: 0 120px;
-    height: 42px;
-    align-items: center;
-    font-size: 14px;
-    color: $text-color;
-}
-
-.upper-right-block {
-    display: flex;
-    align-items: center;
-    gap: 16px;
-}
-
-.upper-right-block-item {
-    display: flex;
-    align-items: center;
-    gap: 6.75px;
-
-    @include hover-effect;
-    
 }
